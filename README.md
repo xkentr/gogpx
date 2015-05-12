@@ -22,7 +22,7 @@ Time,Lat,Lon,Ele,Temp,HR
 ## Simplified Build Instructions (Linux - Debian flavored)
 1. Install go: sudo apt-get install golang
 2. Make a directory to work in and cd into it
-3. Set your GOPATH: export GOPATH=`pwd`
+3. Set your GOPATH: export GOPATH=\`pwd\`
 4. Build: go get github.com/xkentr/gogpx/gpx2csv
 
 The gpx2csv executable will be in $GOPATH/bin . It does not require any other prerequisites.

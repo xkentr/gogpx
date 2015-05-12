@@ -18,3 +18,11 @@ Time,Lat,Lon,Ele,Temp,HR
 2015-03-17T07:04:13-07:00,37.347687,-122.202714,369.6,17,105
 2015-03-17T07:04:23-07:00,37.347787,-122.202972,372.2,17,117
 ```
+
+## Simplified Build Instructions (Linux - Debian flavored)
+1. Install go: sudo apt-get install golang
+2. Make a directory to work in and cd into it
+3. Set your GOPATH: export GOPATH=`pwd`
+4. Build: go get github.com/xkentr/gogpx/gpx2csv
+
+The gpx2csv executable will be in $GOPATH/bin . It does not require any other prerequisites.
